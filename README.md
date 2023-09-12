@@ -14,7 +14,7 @@ Postgres, nginx, elastic- and zabbix-agents are installed and configured with _p
 To launch chosen procedure, run:
 
 ```
-jira-server-sop$ ansible-playbook playbook.yml
+$ ansible-playbook playbook.yml
 ```
 
 ## Requirements
@@ -29,7 +29,7 @@ To [restore](restore.yml) from a backup, set the _restore_from_backup_ variable 
 Start the recovery process separately:
 
 ```
-jira-server-sop$ ansible-playbook restore.yml
+$ ansible-playbook restore.yml
 ```
 
 ## Run Jira as a service
